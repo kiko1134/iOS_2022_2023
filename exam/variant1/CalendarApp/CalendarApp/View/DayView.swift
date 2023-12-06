@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct DayView: View {
+    @Binding var calendarDay: CalendarDay
     var body: some View {
-        Text("На този екран изобразяваме задачите за избрана дата")
-            .multilineTextAlignment(.center)
+            HStack{
+                if(calendarDay.tasks.isEmpty){
+                    Text("is empty")
+                }
+                
+                VStack{
+                    ForEach($calendarDay.tasks , id: \.self){ $task in
+                        TaskView(task: $task)
+                    }
+                }
+            }
     }
 }
 
-struct DayView_Previews: PreviewProvider {
-    static var previews: some View {
-        DayView()
-    }
-}
+//struct DayView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        DayView(tasks: )
+//    }
+//}

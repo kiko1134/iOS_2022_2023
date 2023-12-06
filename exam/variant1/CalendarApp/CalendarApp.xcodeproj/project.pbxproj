@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141407D52B1F9F690021665F /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141407D42B1F9F690021665F /* WeekView.swift */; };
 		9E900B272932BD4F00FCF351 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E900B262932BD4F00FCF351 /* CalendarApp.swift */; };
 		9E900B292932BD4F00FCF351 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E900B282932BD4F00FCF351 /* HomeView.swift */; };
 		9E900B2B2932BD5100FCF351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E900B2A2932BD5100FCF351 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141407D42B1F9F690021665F /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		9E900B232932BD4F00FCF351 /* CalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E900B262932BD4F00FCF351 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
 		9E900B282932BD4F00FCF351 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				9E900B282932BD4F00FCF351 /* HomeView.swift */,
 				9E900B362932C0B300FCF351 /* MonthView.swift */,
+				141407D42B1F9F690021665F /* WeekView.swift */,
 				9E900B432933BA5800FCF351 /* DayView.swift */,
 				9E900B452933BB1100FCF351 /* TaskView.swift */,
 			);
@@ -188,6 +191,7 @@
 				9E900B292932BD4F00FCF351 /* HomeView.swift in Sources */,
 				9E900B392933A09D00FCF351 /* CalendarModel.swift in Sources */,
 				9E900B372932C0B300FCF351 /* MonthView.swift in Sources */,
+				141407D52B1F9F690021665F /* WeekView.swift in Sources */,
 				9E900B272932BD4F00FCF351 /* CalendarApp.swift in Sources */,
 				9E900B422933B76000FCF351 /* MockData.swift in Sources */,
 				9E900B402933ACCB00FCF351 /* Date+Extension.swift in Sources */,

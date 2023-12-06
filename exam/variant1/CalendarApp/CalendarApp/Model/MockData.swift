@@ -64,7 +64,7 @@ extension CalendarModel {
         model.add(task: TaskItem(title: "Лекция по SwiftUI", time: "18:00", isComplete: false), to: CalendarDay(date: nov28))
         
         let nov30 = Calendar.current.date(from: DateComponents(timeZone: TimeZone(identifier: "GMT"), year: 2022, month: 11, day: 30, hour: 0, minute: 0, second: 0, nanosecond: 0))!
-        model.add(task: TaskItem(title: "Учи за контролно по SwiftUI",time: "08:00", isComplete: false), to: CalendarDay(date: nov30))
+        model.add(task: TaskItem(title: "Учи за контролно по SwiftUI",time: "08:00", isComplete: true), to: CalendarDay(date: nov30))
         
         let nov25 = Calendar.current.date(from: DateComponents(timeZone: TimeZone(identifier: "GMT"), year: 2022, month: 11, day: 25, hour: 0, minute: 0, second: 0, nanosecond: 0))!
         model.add(task: TaskItem(title: "Да си купя iPad", time: "12:00", isComplete: false), to: CalendarDay(date: nov25))

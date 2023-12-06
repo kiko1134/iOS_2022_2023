@@ -10,14 +10,17 @@ import SwiftUI
 struct HomeView: View {
     // Това е статичен модел. Ако искаме да го редактираме
     // трябва да определим като "състояние".
+    @ObservedObject
     var model: CalendarModel = CalendarModel.mockInstance
     var body: some View {
-        // Ако искаме навигация, тогава трябва да подготвим това view
-        VStack {
-            Text("Тук трябва да се изобрази календара")
-        }
-        .padding()
-    }
+        NavigationView {
+                    VStack {
+                        MonthView(month: $model.months[0])
+                    }
+                    .padding()
+                    .navigationTitle("Calendar App")
+                }
+            }
 }
 
 struct ContentView_Previews: PreviewProvider {
